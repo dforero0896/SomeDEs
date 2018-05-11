@@ -1,9 +1,8 @@
 /*
-g++ -fopenmp -o placas.o placas.cpp `gsl-config --cflags --libs`
+g++ -fopenmp -o placas.o placas.cpp
 */
 #include <iostream>
 using namespace std;
-#include <gsl/gsl_matrix.h>
 #include <omp.h>
 #include <fstream>
 

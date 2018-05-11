@@ -1,10 +1,9 @@
 /*
-g++ -fopenmp -o cuerda.o cuerda.cpp `gsl-config --cflags --libs`
+g++ -fopenmp -o cuerda.o cuerda.cpp
 */
 #include <iostream>
 #include <cmath>
 using namespace std;
-#include <gsl/gsl_matrix.h>
 #include <omp.h>
 #include <fstream>
 float c = sqrt(40./10);
